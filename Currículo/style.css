@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Selecionando por tag*/
+header{
+    background-color: #d9b79a;
+    text-align:center;
+    padding: 20px;
+}
+
+/*Selecionando por class .*/
+.sessao{
+    text-align: center;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #ccc; */
+
+    /*shorthand 
+
+    border: width style color*/
+    border: 2px solid #ccc;
+    max-width: 600px;/*Lrgura máxima*/
+    margin: auto;/*Margin automática*/
+    padding: 20px;
+
+
+}
+
+h2{
+   color: #000; 
+}
+
+ul{
+    list-style: none;/*Tirando a marcação da lista*/
+}
+
+li,p {
+    margin: 5px;
+}
+
+
+
